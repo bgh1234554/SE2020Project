@@ -12,4 +12,5 @@ Github 페이지에서 해당 some-feature branch에 대해 merge를 할 때 **�
 
 깃을 클론한 뒤에 로컬 리포지터리와 연결시키는 법
 
-$ git checkout -b develop origin/develop
+1. $ git checkout -b develop origin/develop
+2. $ git checkout --track origin/serverfix
