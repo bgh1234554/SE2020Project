@@ -7,4 +7,5 @@
 
 깃을 클론한 뒤에
 로컬 리포지터리와 연결시키는 법
+
 $ git checkout -b develop origin/develop
