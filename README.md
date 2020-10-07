@@ -1,6 +1,8 @@
 # SE2020Project
 소프트웨어개발실무 Git WorkFlow (2019071921 백지훈)
 
+**develop branch**
+
 코드를 최종 배포하기 전, 개발하는 중에 있는 파일들을 올리는 브랜치. 배포가 가능할 경우, master 브랜치와 병합한다.
 
 평소에는 개발할 때 사용하는 develop 브랜치를 주로 사용할 것이기 때문에, 기본 브랜치로 설정해둔다.
@@ -14,3 +16,10 @@ Github 페이지에서 해당 some-feature branch에 대해 merge를 할 때 **�
 
 1. $ git checkout -b develop origin/develop
 2. $ git checkout --track origin/serverfix
+
+**master branch**
+
+최종적으로 배포가 가능한 파일만 master 브랜치에 올린다.
+
+평소 개발을 진행 중에 올리는 파일들은 develop 브랜치에 올려야만 한다.
+
