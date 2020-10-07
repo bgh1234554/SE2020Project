@@ -1,7 +1,9 @@
 Git Workflow 설명
 일단 크게 두 branch로 나뉜다.
 - develop branch:
-코드를 최종 배포하기 전, 개발하는 중에 있는 파일들을 올리는 브랜치. 배포가 가능할 경우, master 브랜치와 병합한다.
+코드를 최종 배포하기 전, 개발하는 중에 있는 파일들을 올리는 브랜치.
+
+배포가 가능할 경우, master 브랜치와 병합한다.
 
 기본 브랜치로 설정하는 이유.
 
@@ -15,7 +17,6 @@ local branch가 remote branch를 자동으로 tracking하게 설정하는 방법
 $ git checkout -b develop origin/develop
 $ git checkout --track origin/develop
 
-- master branch
-최종적으로 배포가 가능한 파일만 master 브랜치에 올린다.
+- master branch: 최종적으로 배포가 가능한 파일만 master 브랜치에 올린다.
 
 평소 개발을 진행 중에 올리는 파일들은 develop 브랜치에 올려야만 한다.
